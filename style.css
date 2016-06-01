@@ -1,0 +1,112 @@
+html body
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body
+{
+    background: #f4f4f4;
+    font-family: 'Microsoft YaHei', sans-serif;
+    font-size: 14px;
+}
+
+pre
+{
+    font-family: Courier New, Courier, monospace;
+}
+
+.tabbar
+{
+    position: absolute;
+    display: table;
+    top: 0;
+    width: 100%;
+}
+
+.tab
+{
+    display: table-cell;
+    cursor: pointer;
+    height: 3em;
+}
+
+.tabtext
+{
+    position: absolute;
+    bottom: 0.8em;
+    width: 25%;
+    text-align: center;
+}
+
+.content
+{
+    width: 100%;
+}
+
+.hidden
+{
+    visibility: hidden;
+}
+
+#main
+{
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    width: 480px;
+}
+
+#main span
+{
+    line-height: 200%;
+}
+
+#main label
+{
+    display: inline-block;
+    width: 120px;
+}
+
+#truevalues
+{
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    width: 480px;
+}
+
+#norForm
+{
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    width: 480px;
+    font-family: Courier New, Courier, monospace;
+}
+
+#tree
+{
+    position: absolute;
+    left: 20%;
+    top: 10%;
+}
+
+input[type="text"]
+{
+    margin-bottom: 20px;
+    font-family: Courier New, Courier, monospace;
+    font-size: 18px;
+    height: 36px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+button
+{
+    background: #c7c7c7;
+    height: 36px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
